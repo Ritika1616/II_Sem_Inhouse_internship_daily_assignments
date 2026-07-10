@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#2f6fed;
+    font-family:Arial, sans-serif;
+}
+div{
+    width:500px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+h1{
+    text-align:center;
+}
+#submit{
+    width:100%;
+    padding:12px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+select{
+    width:100%;
+    padding:10px;
+}
+div{
+    width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+}
+label{
+    font-weight:bold;
+}

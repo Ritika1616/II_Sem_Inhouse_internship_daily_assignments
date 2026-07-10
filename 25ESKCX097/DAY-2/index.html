@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Registration Form</h1>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" placeholder="enter name">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="enter email">
+            <br>
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                          <label for="phonenumber">Phone No:</label>
+                          <br>
+                          <input type="text" id="phonenumber" placeholder="enter number">
+                        </td>
+                        <td>
+                            <label for="date">DOB</label>
+                            <br>
+                            <input type="date" id="date" placeholder="enter date">
+                            <br>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+          <section>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+            <input type="radio" id="others" name="gender" value="transgender">
+            <label for="others">transgender</label>
+          </section>  
+          <section>
+            <label for="address">Address</label>
+            <br>
+            <input type="text" id="address" placeholder="enter address line1">
+            <br>
+            <input type="text" id="address" placeholder="address line 2">
+            <br>
+          </section>
+          <section>
+            <table>
+                <tr>
+                    <td>
+                        <select name="country" id="dropdown" value="country">
+                            <option value="india">india</option>
+                            <option value="usa">usa</option>
+                            <option value="japan">japan</option>
+                            <option value="others">others</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" id="city" placeholder="enter your city">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="region" placeholder="enter your region">
+                    </td>
+                    <td>
+                        <input type="text" id="postal code" placeholder="enter your postal code">
+                    </td>
+                </tr>
+            </table>
+          </section>
+          <footer>
+            <section>
+                <input type="submit" id="submit" value="submit">
+            </section>
+          </footer>
+        </form>
+    </div>
+</body>
+</html>

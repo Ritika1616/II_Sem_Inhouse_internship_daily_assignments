@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="enter first number">
+        <input type="text" placeholder="enter second number">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="\">\</option>
+            <option value="*">*</option>
+        </select>
+        <br>
+        <button type="button" oneclick="performArthimaticOperations">perform arthimatic task</button>
+        <div id="result">
+
+        </div>
+    </form>
+    <script>
+     function performArthimaticOperations(){
+        let var1=2;
+        const var2=3.14;
+        var var3=3;
+         alert(var3);
+        const number1= parseFloat(document.getElementById("number1"))
+        const number2= parseFloat(document.getElementById("number2"))
+        const operator=document.getElementById("operator").value;
+        let result;
+        switch(operator){
+            case"+":
+            result= number1+number2;
+            break;
+            case"-":
+            result= number1-number2;
+            break;
+            case"*":
+            result= number1*number2;
+            break;
+            case"/":if(number2==0){
+            result="divide by zero error"
+            }
+            else{
+                result=number1/number2;            }
+        ;
+            break;
+        }
+     }
+     alert(var1);
+    
+     
+    </script>
+</body>
+</html>
